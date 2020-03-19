@@ -105,9 +105,6 @@ export default {
           this.currentIndex = this.slideCount;
           this.setTransform(-this.currentIndex * this.totalWidth);
         }
-
-        // 2.结束移动后的回调
-        this.$emit("transitionEnd", this.currentIndex - 1);
       }, this.animDuration);
     },
 
