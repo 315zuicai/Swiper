@@ -1,5 +1,6 @@
 # 一个轮播图Vue组件
 大家需要的话可以自取
+
 由Swiper组件和SwiperItem组件组成。Swiper组件中有主要逻辑，SwiperItem设置插槽用于图片展示。
 
 #### 1. 启动流程
